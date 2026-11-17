@@ -39,35 +39,35 @@
 
 /* Begin PBXFileReference section */
 		E1000000000000000000000C /* NaaTvTelugu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaaTvTelugu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F10000000000000000000001 /* NaaTvTeluguApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTeluguApp.swift; sourceTree = "<group>"; };
-		F10000000000000000000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F10000000000000000000003 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		F10000000000000000000004 /* AdminSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSettings.swift; sourceTree = "<group>"; };
-		F10000000000000000000005 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
-		F10000000000000000000006 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
-		F10000000000000000000007 /* CustomPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPost.swift; sourceTree = "<group>"; };
-		F10000000000000000000008 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		F10000000000000000000009 /* AdminSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSettingsStore.swift; sourceTree = "<group>"; };
-		F1000000000000000000000A /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
-		F1000000000000000000000B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		F1000000000000000000000C /* NewsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRepository.swift; sourceTree = "<group>"; };
-		F1000000000000000000000D /* NewsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStore.swift; sourceTree = "<group>"; };
-		F1000000000000000000000E /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
-		F1000000000000000000000F /* AdminPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPanelView.swift; sourceTree = "<group>"; };
-		F10000000000000000000010 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
-		F10000000000000000000011 /* CategoriesSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesSheetView.swift; sourceTree = "<group>"; };
-		F10000000000000000000012 /* EmployeePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePostView.swift; sourceTree = "<group>"; };
-		F10000000000000000000013 /* FullStorySheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStorySheetView.swift; sourceTree = "<group>"; };
-		F10000000000000000000014 /* HomeExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeExploreView.swift; sourceTree = "<group>"; };
-		F10000000000000000000015 /* LanguageSelectionDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionDialog.swift; sourceTree = "<group>"; };
-		F10000000000000000000016 /* LocationPickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerDialog.swift; sourceTree = "<group>"; };
-		F10000000000000000000017 /* MoreProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreProfileView.swift; sourceTree = "<group>"; };
-		F10000000000000000000018 /* NewsWatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWatchingView.swift; sourceTree = "<group>"; };
-		F10000000000000000000019 /* ReferralDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferralDialogView.swift; sourceTree = "<group>"; };
-		F1000000000000000000001A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		F1000000000000000000001B /* SavedStoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedStoriesView.swift; sourceTree = "<group>"; };
-		F1000000000000000000001C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
-		F1000000000000000000001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10000000000000000000001 /* NaaTvTeluguApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/NaaTvTeluguApp.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NaaTvTelugu/Info.plist; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000003 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Theme/Theme.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000004 /* AdminSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Models/AdminSettings.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000005 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Models/AppLanguage.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000006 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Models/AppUser.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000007 /* CustomPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Models/CustomPost.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000008 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Models/Models.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000009 /* AdminSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Services/AdminSettingsStore.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000000A /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Services/AuthStore.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000000B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Services/LocationManager.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000000C /* NewsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Services/NewsRepository.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000000D /* NewsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Services/NewsStore.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000000E /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/ViewModels/NewsViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000000F /* AdminPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/AdminPanelView.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000010 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/AuthView.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000011 /* CategoriesSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/CategoriesSheetView.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000012 /* EmployeePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/EmployeePostView.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000013 /* FullStorySheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/FullStorySheetView.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000014 /* HomeExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/HomeExploreView.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000015 /* LanguageSelectionDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/LanguageSelectionDialog.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000016 /* LocationPickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/LocationPickerDialog.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000017 /* MoreProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/MoreProfileView.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000018 /* NewsWatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/NewsWatchingView.swift; sourceTree = SOURCE_ROOT; };
+		F10000000000000000000019 /* ReferralDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/ReferralDialogView.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000001A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/RootView.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000001B /* SavedStoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/SavedStoriesView.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000001C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTelugu/Views/SplashScreenView.swift; sourceTree = SOURCE_ROOT; };
+		F1000000000000000000001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NaaTvTelugu/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				E10000000000000000000017 /* Views */,
 				E10000000000000000000018 /* Resources */,
 			);
-			path = NaaTvTelugu;
+			name = NaaTvTelugu;
 			sourceTree = "<group>";
 		};
 		E10000000000000000000013 /* Theme */ = {
@@ -117,7 +117,7 @@
 			children = (
 				F10000000000000000000003 /* Theme.swift */,
 			);
-			path = Theme;
+			name = Theme;
 			sourceTree = "<group>";
 		};
 		E10000000000000000000014 /* Models */ = {
@@ -129,7 +129,7 @@
 				F10000000000000000000007 /* CustomPost.swift */,
 				F10000000000000000000008 /* Models.swift */,
 			);
-			path = Models;
+			name = Models;
 			sourceTree = "<group>";
 		};
 		E10000000000000000000015 /* Services */ = {
@@ -141,7 +141,7 @@
 				F1000000000000000000000C /* NewsRepository.swift */,
 				F1000000000000000000000D /* NewsStore.swift */,
 			);
-			path = Services;
+			name = Services;
 			sourceTree = "<group>";
 		};
 		E10000000000000000000016 /* ViewModels */ = {
@@ -149,7 +149,7 @@
 			children = (
 				F1000000000000000000000E /* NewsViewModel.swift */,
 			);
-			path = ViewModels;
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
 		E10000000000000000000017 /* Views */ = {
@@ -170,7 +170,7 @@
 				F1000000000000000000001B /* SavedStoriesView.swift */,
 				F1000000000000000000001C /* SplashScreenView.swift */,
 			);
-			path = Views;
+			name = Views;
 			sourceTree = "<group>";
 		};
 		E10000000000000000000018 /* Resources */ = {
@@ -178,7 +178,7 @@
 			children = (
 				F1000000000000000000001D /* Assets.xcassets */,
 			);
-			path = Resources;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
