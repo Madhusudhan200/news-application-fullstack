@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* NaaTvTeluguApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* NaaTvTeluguApp.swift */; };
+		B10000000000000000000003 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* Theme.swift */; };
+		B10000000000000000000004 /* AdminSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* AdminSettings.swift */; };
+		B10000000000000000000005 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* AppLanguage.swift */; };
+		B10000000000000000000006 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000006 /* AppUser.swift */; };
+		B10000000000000000000007 /* CustomPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000007 /* CustomPost.swift */; };
+		B10000000000000000000008 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000008 /* Models.swift */; };
+		B10000000000000000000009 /* AdminSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000009 /* AdminSettingsStore.swift */; };
+		B1000000000000000000000A /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000000A /* AuthStore.swift */; };
+		B1000000000000000000000B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000000B /* LocationManager.swift */; };
+		B1000000000000000000000C /* NewsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000000C /* NewsRepository.swift */; };
+		B1000000000000000000000D /* NewsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000000D /* NewsStore.swift */; };
+		B1000000000000000000000E /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000000E /* NewsViewModel.swift */; };
+		B1000000000000000000000F /* AdminPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000000F /* AdminPanelView.swift */; };
+		B10000000000000000000010 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000010 /* AuthView.swift */; };
+		B10000000000000000000011 /* CategoriesSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000011 /* CategoriesSheetView.swift */; };
+		B10000000000000000000012 /* EmployeePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000012 /* EmployeePostView.swift */; };
+		B10000000000000000000013 /* FullStorySheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000013 /* FullStorySheetView.swift */; };
+		B10000000000000000000014 /* HomeExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000014 /* HomeExploreView.swift */; };
+		B10000000000000000000015 /* LanguageSelectionDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000015 /* LanguageSelectionDialog.swift */; };
+		B10000000000000000000016 /* LocationPickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000016 /* LocationPickerDialog.swift */; };
+		B10000000000000000000017 /* MoreProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000017 /* MoreProfileView.swift */; };
+		B10000000000000000000018 /* NewsWatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000018 /* NewsWatchingView.swift */; };
+		B10000000000000000000019 /* ReferralDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000019 /* ReferralDialogView.swift */; };
+		B1000000000000000000001A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001A /* RootView.swift */; };
+		B1000000000000000000001B /* SavedStoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001B /* SavedStoriesView.swift */; };
+		B1000000000000000000001C /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001C /* SplashScreenView.swift */; };
+		B1000000000000000000001D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1000000000000000000000C /* NaaTvTelugu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaaTvTelugu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10000000000000000000001 /* NaaTvTeluguApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaaTvTeluguApp.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10000000000000000000003 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F10000000000000000000004 /* AdminSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSettings.swift; sourceTree = "<group>"; };
+		F10000000000000000000005 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		F10000000000000000000006 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		F10000000000000000000007 /* CustomPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPost.swift; sourceTree = "<group>"; };
+		F10000000000000000000008 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F10000000000000000000009 /* AdminSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSettingsStore.swift; sourceTree = "<group>"; };
+		F1000000000000000000000A /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		F1000000000000000000000B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F1000000000000000000000C /* NewsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRepository.swift; sourceTree = "<group>"; };
+		F1000000000000000000000D /* NewsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStore.swift; sourceTree = "<group>"; };
+		F1000000000000000000000E /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		F1000000000000000000000F /* AdminPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPanelView.swift; sourceTree = "<group>"; };
+		F10000000000000000000010 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		F10000000000000000000011 /* CategoriesSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesSheetView.swift; sourceTree = "<group>"; };
+		F10000000000000000000012 /* EmployeePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePostView.swift; sourceTree = "<group>"; };
+		F10000000000000000000013 /* FullStorySheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStorySheetView.swift; sourceTree = "<group>"; };
+		F10000000000000000000014 /* HomeExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeExploreView.swift; sourceTree = "<group>"; };
+		F10000000000000000000015 /* LanguageSelectionDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionDialog.swift; sourceTree = "<group>"; };
+		F10000000000000000000016 /* LocationPickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerDialog.swift; sourceTree = "<group>"; };
+		F10000000000000000000017 /* MoreProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreProfileView.swift; sourceTree = "<group>"; };
+		F10000000000000000000018 /* NewsWatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWatchingView.swift; sourceTree = "<group>"; };
+		F10000000000000000000019 /* ReferralDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferralDialogView.swift; sourceTree = "<group>"; };
+		F1000000000000000000001A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F1000000000000000000001B /* SavedStoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedStoriesView.swift; sourceTree = "<group>"; };
+		F1000000000000000000001C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F1000000000000000000001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1000000000000000000000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10000000000000000000010 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E10000000000000000000012 /* NaaTvTelugu */,
+				E10000000000000000000011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10000000000000000000011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1000000000000000000000C /* NaaTvTelugu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000012 /* NaaTvTelugu */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000001 /* NaaTvTeluguApp.swift */,
+				F10000000000000000000002 /* Info.plist */,
+				E10000000000000000000013 /* Theme */,
+				E10000000000000000000014 /* Models */,
+				E10000000000000000000015 /* Services */,
+				E10000000000000000000016 /* ViewModels */,
+				E10000000000000000000017 /* Views */,
+				E10000000000000000000018 /* Resources */,
+			);
+			path = NaaTvTelugu;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000013 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000003 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000014 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000004 /* AdminSettings.swift */,
+				F10000000000000000000005 /* AppLanguage.swift */,
+				F10000000000000000000006 /* AppUser.swift */,
+				F10000000000000000000007 /* CustomPost.swift */,
+				F10000000000000000000008 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000015 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000009 /* AdminSettingsStore.swift */,
+				F1000000000000000000000A /* AuthStore.swift */,
+				F1000000000000000000000B /* LocationManager.swift */,
+				F1000000000000000000000C /* NewsRepository.swift */,
+				F1000000000000000000000D /* NewsStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000016 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000000E /* NewsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000017 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000000F /* AdminPanelView.swift */,
+				F10000000000000000000010 /* AuthView.swift */,
+				F10000000000000000000011 /* CategoriesSheetView.swift */,
+				F10000000000000000000012 /* EmployeePostView.swift */,
+				F10000000000000000000013 /* FullStorySheetView.swift */,
+				F10000000000000000000014 /* HomeExploreView.swift */,
+				F10000000000000000000015 /* LanguageSelectionDialog.swift */,
+				F10000000000000000000016 /* LocationPickerDialog.swift */,
+				F10000000000000000000017 /* MoreProfileView.swift */,
+				F10000000000000000000018 /* NewsWatchingView.swift */,
+				F10000000000000000000019 /* ReferralDialogView.swift */,
+				F1000000000000000000001A /* RootView.swift */,
+				F1000000000000000000001B /* SavedStoriesView.swift */,
+				F1000000000000000000001C /* SplashScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000018 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000001D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000002 /* NaaTvTelugu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10000000000000000000004 /* Build configuration list for PBXNativeTarget "NaaTvTelugu" */;
+			buildPhases = (
+				E10000000000000000000009 /* Sources */,
+				E1000000000000000000000B /* Frameworks */,
+				E1000000000000000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaaTvTelugu;
+			productName = NaaTvTelugu;
+			productReference = E1000000000000000000000C /* NaaTvTelugu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E10000000000000000000002 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E10000000000000000000003 /* Build configuration list for PBXProject "NaaTvTelugu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E100000000000000000000010 /* Main */;
+			productRefGroup = E100000000000000000000011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000002 /* NaaTvTelugu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1000000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000000000000000000001D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10000000000000000000009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* NaaTvTeluguApp.swift in Sources */,
+				B10000000000000000000003 /* Theme.swift in Sources */,
+				B10000000000000000000004 /* AdminSettings.swift in Sources */,
+				B10000000000000000000005 /* AppLanguage.swift in Sources */,
+				B10000000000000000000006 /* AppUser.swift in Sources */,
+				B10000000000000000000007 /* CustomPost.swift in Sources */,
+				B10000000000000000000008 /* Models.swift in Sources */,
+				B10000000000000000000009 /* AdminSettingsStore.swift in Sources */,
+				B1000000000000000000000A /* AuthStore.swift in Sources */,
+				B1000000000000000000000B /* LocationManager.swift in Sources */,
+				B1000000000000000000000C /* NewsRepository.swift in Sources */,
+				B1000000000000000000000D /* NewsStore.swift in Sources */,
+				B1000000000000000000000E /* NewsViewModel.swift in Sources */,
+				B1000000000000000000000F /* AdminPanelView.swift in Sources */,
+				B10000000000000000000010 /* AuthView.swift in Sources */,
+				B10000000000000000000011 /* CategoriesSheetView.swift in Sources */,
+				B10000000000000000000012 /* EmployeePostView.swift in Sources */,
+				B10000000000000000000013 /* FullStorySheetView.swift in Sources */,
+				B10000000000000000000014 /* HomeExploreView.swift in Sources */,
+				B10000000000000000000015 /* LanguageSelectionDialog.swift in Sources */,
+				B10000000000000000000016 /* LocationPickerDialog.swift in Sources */,
+				B10000000000000000000017 /* MoreProfileView.swift in Sources */,
+				B10000000000000000000018 /* NewsWatchingView.swift in Sources */,
+				B10000000000000000000019 /* ReferralDialogView.swift in Sources */,
+				B1000000000000000000001A /* RootView.swift in Sources */,
+				B1000000000000000000001B /* SavedStoriesView.swift in Sources */,
+				B1000000000000000000001C /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E10000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E10000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E10000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NaaTvTelugu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NAA TV Telugu";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naatvtelugu.news;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E10000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NaaTvTelugu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NAA TV Telugu";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naatvtelugu.news;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E10000000000000000000003 /* Build configuration list for PBXProject "NaaTvTelugu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000005 /* Debug */,
+				E10000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10000000000000000000004 /* Build configuration list for PBXNativeTarget "NaaTvTelugu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000007 /* Debug */,
+				E10000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10000000000000000000001 /* Project object */;
+}

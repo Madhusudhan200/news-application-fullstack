@@ -1,0 +1,31 @@
+# Build outputs
+*.apk
+*.ipa
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+
+# iOS ignores
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+xcuserdata/
+DerivedData/
+
+# Node ignores
+node_modules/
+.env
+*.log
+
+# Sub-repositories
+news-application-frontend/
+news-application-backend/
+news-application-fullstack/
+
+# Temp scratch files
+temp_*.xml
+find_*.ps1
+copy_icons.bat
+*.jpeg
